@@ -1,0 +1,196 @@
+{
+  "info": {
+    "name": "FDA Ophthalmic Backend Phase 1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    }
+  ],
+  "item": [
+    {
+      "name": "GET /api/fda/510k/K251848",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/fda/510k/K251848",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "fda",
+            "510k",
+            "K251848"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/fda/pma/P170019",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/fda/pma/P170019",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "fda",
+            "pma",
+            "P170019"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/fda/classification/HQT",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/fda/classification/HQT",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "fda",
+            "classification",
+            "HQT"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/fda/udi/product-codes/K251848",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/fda/udi/product-codes/K251848",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "fda",
+            "udi",
+            "product-codes",
+            "K251848"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/fda/bulk/manifest",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/fda/bulk/manifest",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "fda",
+            "bulk",
+            "manifest"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/sources/federal-register",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/sources/federal-register",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "sources",
+            "federal-register"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/sources/ecfr",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/sources/ecfr",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "sources",
+            "ecfr"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/sources/guidance",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/sources/guidance",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "sources",
+            "guidance"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/sources/fda-510k-page",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/sources/fda-510k-page",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "sources",
+            "fda-510k-page"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /actuator/health",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/actuator/health",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "actuator",
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /api/sources/fda-510k-http?id=K251848 (HTML redirect diagnostics)",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/sources/fda-510k-http?id=K251848"
+      }
+    }
+  ]
+}

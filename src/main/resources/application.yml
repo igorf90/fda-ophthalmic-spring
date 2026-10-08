@@ -1,0 +1,15 @@
+server:
+  port: ${PORT:8080}
+spring:
+  application:
+    name: fda-ophthalmic-backend
+  jackson:
+    default-property-inclusion: non_null
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+integration:
+  user-agent: ${FDA_USER_AGENT:FDA-Ophthalmic-RI/1.0 (private regulatory research; contact via configured operator)}
+  timeout-seconds: 20

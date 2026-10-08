@@ -1,0 +1,7 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      FDA_USER_AGENT: ${FDA_USER_AGENT:-FDA-Ophthalmic-RI/1.0 (private regulatory research)}
